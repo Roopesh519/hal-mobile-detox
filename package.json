@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "detox": "^20.25.1"
+  }
+}
