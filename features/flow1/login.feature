@@ -1,4 +1,7 @@
 Feature: User Login with Fingerprint/Face ID Authentication
+  As a admin
+  I should be able to open the application using fingerprint or face id Authentication
+  I should be able to navigated to external page for login
 
   Scenario: User logs in using fingerprint/Face ID and navigates through external webview
     Given the app is launched
