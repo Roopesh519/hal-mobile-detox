@@ -4,8 +4,8 @@ Feature: Halspan- Customer/Installer/Inspector- Hambergur Menu
   There must be an option to view all the options available in the Burger Menu
 
   Scenario: Viewing the options in the Burger Menu
-    Given I am logged in
-    When I click the "Burger Menu" button
+    Given I am on the dashboard screen
+    When I click on the hamburger icon
     Then I should see the following options:
       | Dashboard               |
       | Scan an Asset(TAG)      |
@@ -21,3 +21,4 @@ Feature: Halspan- Customer/Installer/Inspector- Hambergur Menu
       | My profile              |
       | Support                 |
       | Logout                  |
+

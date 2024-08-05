@@ -1,6 +1,13 @@
 {
+  "name": "hal-mobile-detox",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
   "devDependencies": {
     "@cucumber/cucumber": "^10.8.0",
-    "detox": "^20.25.1"
-  }
+    "detox": "^20.25.1",
+    "jest": "^29.7.0"
+  },
+  "type": "module"
 }

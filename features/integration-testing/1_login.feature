@@ -1,13 +1,12 @@
-Feature: User Login with Fingerprint/Face ID Authentication
-  As a admin
-  I should be able to open the application using fingerprint or face id Authentication
-  I should be able to navigated to external page for login
+Feature: Halspan - Customer/Installer/Inspector - Log in using Face ID and Touch ID
+As a customer/Inspector/Installer I want an option to login using FaceID and TouchID
+Conditions of Satisfaction
+There must be an option to log in using FaceID and TouchID
 
   Scenario: User logs in using fingerprint/Face ID and navigates through external webview
-    Given the app is launched
-    When I see the splash screen
+    Given I see the splash screen
     Then I should be prompted to authorize the app using fingerprint or face id
-    When I authenticate myself using fingerprint or face id
+    When I authenticate myself using password
     Then I should see the login screen
     When I click on the login button
     Then I should be navigated to the external webview for login
