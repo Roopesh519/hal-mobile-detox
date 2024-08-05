@@ -9,4 +9,4 @@ Feature: Halspan - Customer/Installer/Inspector -Dashboard
     Given I am on the dashboard screen
     Then I should see the halspan logo
     And I should see my name prominently displayed
-    And I should see options to "Scan an asset", "My Jobs", "Report a fault", "Site / Buildings", "Assign / edit smart tag", "Technical documents"
+    And I should see options to '["Scan an asset", "My Jobs", "Report a fault", "Site / Buildings", "Assign / edit smart tag", "Technical documents"]'

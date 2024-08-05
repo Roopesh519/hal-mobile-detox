@@ -6,19 +6,4 @@ Feature: Halspan- Customer/Installer/Inspector- Hambergur Menu
   Scenario: Viewing the options in the Burger Menu
     Given I am on the dashboard screen
     When I click on the hamburger icon
-    Then I should see the following options:
-      | Dashboard               |
-      | Scan an Asset(TAG)      |
-      | My Jobs                 |
-      | Assign / Edit a Tag     |
-      | Technical Documentation |
-      | Report fault            |
-      | Sites / Buildings       |
-      | Find products           |
-      | Recall a submission     |
-      | Go online (x)           |
-      | Recall draft answers    |
-      | My profile              |
-      | Support                 |
-      | Logout                  |
-
+    Then I should see the following options '["Dashboard", "Scan an Asset(TAG) ", "My Jobs", "Assign / Edit a Tag", "Technical Documentation", "Report fault", "Sites / Buildings", "Find products", "Recall a submission", "Go online (x)", "Recall draft answers", "My profile", "Support", "Logout"]'
