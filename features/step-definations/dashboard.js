@@ -2,7 +2,7 @@ import detox from 'detox';
 const { device, element, by, expect } = detox;
 import { Given, When, Then } from '@cucumber/cucumber';
 
-Then('I should see the Halspan Logo', async function() {
+Then('I should see the halspan logo', async function() {
   await expect(element(by.id('halspanLogo'))).toBeVisible();
 });
 
@@ -18,4 +18,3 @@ Then('I should see options to {string}, {string}, {string}, {string}, {string}, 
   await expect(element(by.text(option5))).toBeVisible();
   await expect(element(by.text(option6))).toBeVisible();
 });
-

@@ -5,7 +5,7 @@ Feature: Halspan - Customer/Installer/Inspector -Dashboard
   The items that are displayed in the Homescreen depend upon the permissions that the user has.
   The items are controlled by the Role/Permissions set in the Portal/Admin area.
 
-  Scenario: Successful login as a user
+  Scenario: Admin is able to see the Dashboard
     Given I am on the dashboard screen
     Then I should see the halspan logo
     And I should see my name prominently displayed

@@ -16,7 +16,7 @@ Feature: Halspan - Customer/Installer/Inspector -Dashboard
     Then I should be navigated back to the application
     And I should be redirected to the dashboard
 
-  Scenario: Successful login as a user
+  Scenario: Admin is able to see the Dashboard
     Given I am on the dashboard screen
     Then I should see the halspan logo
     And I should see my name prominently displayed
