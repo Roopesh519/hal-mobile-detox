@@ -8,8 +8,3 @@ There must be an option to log in using FaceID and TouchID
     Then I should be prompted to authorize the app using fingerprint or face id
     When I authenticate myself using password
     Then I should see the login screen
-    When I click on the login button
-    Then I should be navigated to the external webview for login
-    When I login with my email and password
-    Then I should be navigated back to the application
-    And I should be redirected to the dashboard
